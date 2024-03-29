@@ -54,7 +54,6 @@ def generate(api_key, system_prompt, prompt, creativity=80):
     )
     return response.choices[0].message.content.strip()
 
-
 def main():
     st.set_page_config(layout="centered", page_title="Lit Reviaew",page_icon="📖")
     st.title("Lit Review AI 📖")
