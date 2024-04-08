@@ -1,0 +1,4 @@
+openai==1.16.2
+pdfplumber==0.11.0
+python_docx==1.1.0
+streamlit==1.28.2
