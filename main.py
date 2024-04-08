@@ -67,7 +67,6 @@ def main():
         document_text = extract_text(document, document.type)
 
 
-
     if openai_api_key:
         if st.button("Generate"):
             try:
